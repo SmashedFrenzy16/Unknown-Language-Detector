@@ -7,3 +7,10 @@ Happy New Year 2023! As this is my first repository of the year and New Year's i
 Don't know a language that someone is talking to you in? Then this set of programs is for you!
 
 ## Requirements
+
+- `langdetect` module:
+  
+  ```
+  pip install langdetect
+  ```
+
