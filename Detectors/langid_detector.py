@@ -1,5 +1,7 @@
 from tkinter import *
 
+from langcodes import *
+
 import langid
 
 root = Tk()
@@ -14,8 +16,10 @@ def execute():
 
 
     detecting = langid.classify(detector.get())
+    
+    final = Language.make(language = detecting).display_name()
 
-    answerlabel = Label(root, text=detecting)
+    answerlabel = Label(root, text=final)
     answerlabel.pack()
 
 enter = Button(root, text="Enter", command=execute)
