@@ -1,5 +1,7 @@
 from tkinter import *
 
+from langcodes import *
+
 from textblob import TextBlob
 
 root = Tk()
@@ -17,7 +19,9 @@ def execute():
     
     finish_detecting = detecting.detect_language()
 
-    answerlabel = Label(root, text=finish_detecting)
+    final = Language.make(language = finish_detecting).display_name()
+
+    answerlabel = Label(root, text=final)
     answerlabel.pack()
 
 enter = Button(root, text="Enter", command=execute)
