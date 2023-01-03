@@ -20,7 +20,7 @@ Don't know a language that someone is talking to you in? Then this set of progra
   pip install langdetect
   ```
   
-- `textblob` module:
+- `textblob` module (for the `textblob_detector.py` program in this repository):
   
   ```
   pip install textblob
