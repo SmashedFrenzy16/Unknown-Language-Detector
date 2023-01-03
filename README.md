@@ -29,3 +29,4 @@ Don't know a language that someone is talking to you in? Then this set of progra
 ## Which One Do I Use?
 
 - `langdetect` is a port of Google’s language-detection library that supports 55 languages. It is best used for more common languages that are spoken.
+- `textblob` is used for natural language processing(NLP) tasks such as noun phrase extraction, sentiment analysis, classification, translation, and more. It is best used for more complex and intricate sentences.
