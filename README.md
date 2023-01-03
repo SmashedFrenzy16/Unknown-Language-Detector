@@ -26,7 +26,7 @@ Don't know a language that someone is talking to you in? Then this set of progra
   pip install textblob
   ```
   
-- `langid` module:
+- `langid` module (for the `langid_detector.py` program in this repository):
   
   ```
   pip install langid
