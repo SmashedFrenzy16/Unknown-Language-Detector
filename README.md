@@ -8,13 +8,13 @@ Don't know a language that someone is talking to you in? Then this set of progra
 
 ## Requirements
 
-- `langcodes` module (for all programs):
+- `langcodes` module (for all programs in this repository):
   
   ```
   pip install langcodes
   ```
 
-- `langdetect` module:
+- `langdetect` module (for the `langdetect_detector.py` program in this repository):
   
   ```
   pip install langdetect
