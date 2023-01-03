@@ -34,6 +34,6 @@ Don't know a language that someone is talking to you in? Then this set of progra
 
 ## Which One Do I Use?
 
-- The `langdetect` program is a port of Google’s language-detection library that supports 55 languages. It is best used for more common languages that are spoken.
+- The `langdetect` module in `langdetect_detector.py` is a port of Google’s language-detection library that supports 55 languages. It is best used for more common languages that are spoken.
 - The `textblob` program is used for natural language processing(NLP) tasks such as noun phrase extraction, sentiment analysis, classification, translation, and more. It is best used for more complex and intricate sentences.
 - The `langid` program is a standalone Language Identification tool. It is pre-trained over a large number of languages (as of January 14th 2020, 97). It is best used for languages which are not very commonly spoken.
