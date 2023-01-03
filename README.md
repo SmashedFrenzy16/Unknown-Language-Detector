@@ -19,4 +19,10 @@ Don't know a language that someone is talking to you in? Then this set of progra
   ```
   pip install textblob
   ```
+  
+- `langid` module:
+  
+  ```
+  pip install langid
+  ```
 
